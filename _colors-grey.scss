@@ -1,0 +1,147 @@
+/**
+ * grey Color Theme for PW admin
+ *
+ */
+
+$white: #fff; 
+$black: #111; 
+$dark: #444;
+$light-grey: #c6c6c4;
+$red: #a30000;
+$grey: #aaa;
+$dark-grey: #666;
+
+$text-bg: $white; 
+$text-color: $dark;
+$medium-text-color: #999; 
+$light-text-color: #aaa; 
+$reverse-text-color: $white;
+
+$subtle-bg: #f9f9f9;
+$less-subtle-bg: #eee;
+$subtle-border: #e1e1e1; 
+
+$link-color: $light-text-color;
+$link-hover-color: $dark;
+$link-hover-bg: none; 
+$link-current-color: $light-grey;
+$link-current-bg: none; 
+$link-active-bg: none; 
+$link-active-color: $light-grey; 
+
+$alt-link-color: $light-grey;
+
+$button-bg: $light-grey; 
+$button-border: $light-grey;
+$button-color: $white;
+$button-hover-bg: $link-hover-color;
+$button-hover-border: $link-hover-color; 
+
+$ui-state-default-bg: $light-grey;
+$ui-state-default-color: $reverse-text-color; 
+$ui-state-hover-bg: darken($light-grey, 10%);
+$ui-state-hover-color: $reverse-text-color; 
+
+$label-link-color: $text-color;
+$label-link-bg: #fff; 
+$label-link-collapsed-color: lighten($label-link-color, 35%); 
+$label-link-collapsed-bg: #fff; 
+$label-link-hover-color: $dark;
+
+$table-th-color: $grey;
+$table-th-active-color: $dark-grey; 
+
+$headline-bg: $subtle-bg; 
+$headline-color: darken($light-grey, 10%); /*#A73003; */
+$headline-border: none; 
+
+$highlight-bg: $light-grey; /* #D1F486;*/
+$highlight-color: $reverse-text-color;
+$highlight-border: 1px solid $white; 
+
+$item-header-bg: $light-grey;
+$item-header-color: $white; 
+$item-header-hover-color: $white;
+$item-header-hover-bg: $link-hover-color; 
+$item-border: 1px solid $subtle-bg; 
+
+$masthead-bg: $dark; 
+$masthead-secondary-bg: none; /* -webkit-linear-gradient(top, $masthead-bg 0%, darken($masthead-bg, 5%) 100%); */
+$masthead-secondary-border: none; /* 1px solid transparentize($white, 0.95); */
+$masthead-height: 81px; 
+
+$breadcrumbs-bg: $less-subtle-bg; 
+$breadcrumbs-color: transparentize($masthead-bg, 0.6);
+$breadcrumbs-link-color: transparentize($masthead-bg, 0.2); 
+$breadcrumbs-link-color: $link-color; 
+$breadcrumbs-link-hover-color: $link-color; 
+$breadcrumbs-border: 1px solid darken($breadcrumbs-bg, 5%); 
+$breadcrumbs-title-color: $text-color; 
+
+$topnav-link-color: $reverse-text-color;
+$topnav-link-bg: none; /*rgba(255,255,255,0.05); */
+$topnav-link-hover-color: $reverse-text-color; 
+$topnav-link-hover-bg: transparentize($reverse-text-color, 0.8); 
+$topnav-link-current-color: $text-color; 
+$topnav-link-current-bg: $headline-bg;
+$topnav-height: 31px; 
+
+
+$action-link-color: $light-grey;
+$action-link-font-size: 0.846153846153846em;
+$action-link-font-size: 0.769230769230769em; 
+$action-link-font-size: 1em; 
+$action-link-bg: none; 
+$action-link-border: none; 
+$action-link-hover-color: $reverse-text-color;
+$action-link-hover-bg: $dark;
+$action-link-hover-border: 1px solid $dark;
+$action-link-active-color: $reverse-text-color; 
+$action-link-active-bg: $light-grey;
+
+$pagelist-link-color: $dark; 
+$pagelist-link-hover-color: $link-hover-color;
+$pagelist-link-open-color: $light-grey; 
+$pagelist-link-open-bg: none; 
+$pagelist-link-active-color: $light-grey; 
+$pagelist-link-icon-color: $light-grey; /*lighten($pagelist-link-color, 20%); */
+
+$pagination-font-size: 0.769230769230769em; 
+$pagination-link-color: $text-color; 
+$pagination-link-bg: $subtle-bg; 
+$pagination-link-current-color: $reverse-text-color;
+$pagination-link-current-bg: $link-active-color;
+$pagination-link-hover-color: $white;
+$pagination-link-hover-bg: $link-hover-color;
+$pagination-link-active-color: $white; 
+$pagination-link-active-bg: $link-hover-color; 
+$pagination-link-border-radius: 3px; 
+
+$wiretab-link-bg: none; 
+$wiretab-link-border: 1px solid transparent; 
+$wiretab-link-color: $masthead-bg; 
+$wiretab-link-hover-bg: transparentize($white, 0.5);
+$wiretab-link-hover-border: 1px solid darken($subtle-bg, 5%); 
+$wiretab-link-hover-color: $dark;
+$wiretab-link-current-bg: $white; 
+$wiretab-link-current-color: $text-color; 
+$wiretab-link-current-border: $wiretab-link-hover-border; 
+$wiretab-link-active-bg: $subtle-bg;
+$wiretab-link-active-color: $text-color; 
+
+$footer-bg: $less-subtle-bg; 
+$footer-color: $light-text-color; 
+$footer-link-color: $medium-text-color;
+
+$error-bg: darken($light-grey, 5%); 
+$error-border: $red; 
+$error-color: #fff; 
+
+$notes-bg: #ffffdd; 
+$notes-font-size: 0.846153846153846em;
+
+$button-radius: 2px; 
+$tabs-radius: 2px; 
+$tabs-height: 35px; 
+$base-line-height: 1.6em; 
+
