@@ -1,2 +1,2 @@
-Grey colors for the new ProcessWire theme
+Grey Color Theme for PW admin
 ==============
